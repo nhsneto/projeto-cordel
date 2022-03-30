@@ -1,8 +1,14 @@
 @charset "UTF-8";
 
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
 @font-face {
   font-family: "Xilosa";
   src: url("../fontes/xilosa.ttf") format("truetype");
+}
+
+:root {
+  --cursiva: 'Sriracha', cursive;
 }
 
 html {
@@ -52,7 +58,11 @@ a:hover {
 div {
   background-color: white;
   padding: 10vh 0 10vh 30px;
-  line-height: 1.4em;
+}
+
+pre {
+  font-family: var(--cursiva);
+  line-height: 1.5em;
 }
 
 .imagem-fundo {
