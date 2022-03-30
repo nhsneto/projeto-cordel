@@ -62,17 +62,33 @@ div {
 
 pre {
   font-family: var(--cursiva);
+  font-size: 1.15em;
   line-height: 1.5em;
 }
 
 .imagem-fundo {
   background-color: #333;
+  background-size: cover;
+  background-attachment: fixed;
   color: white;
+  box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.475);
 }
 
 .imagem-fundo > pre {
-  width: 400px;
+  max-width: 240px;
+  padding: 10px;
   background-color: rgba(0, 0, 0, 0.255);
+  text-shadow: 1px 1px black;
+}
+
+#img01 {
+  background-image: url("../imagens/background001.jpg");
+  background-position: right center;
+}
+
+#img02 {
+  background-image: url("../imagens/background002.jpg");
+  background-position: right center;
 }
 
 footer {
