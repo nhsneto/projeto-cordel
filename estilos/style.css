@@ -98,3 +98,15 @@ footer {
   font: .75em Verdana, sans-serif;
   text-align: center;
 }
+
+@media screen and (max-width: 375px) {
+  footer > a::before {
+    content: '\000a';
+    white-space: pre;
+  }
+
+  .break::before {
+    content: '\000a';
+    white-space: pre;
+  }
+}
